@@ -27,7 +27,6 @@
     介绍YOLO/SSD/RCNN/Faster-RCNN/Mask-RCNN算法  
     YOLO v1/v2/v3 区别细节，SSD如何改进有思考过嘛，知道DSSD和FSSD嘛  
     YOLO/SSD里面有全连接层嘛  
-    YOLO/SSD算法思想如何用到三维点云目标检测  
     单张图片物体越多越密集，YOLO/SSD/Faster-RCNN中计算量是否也随着增加  
     目标检测算法one-stage和two-stage区别点在哪里  
     two-stage算法相比于one-stage有何优势  
