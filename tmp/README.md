@@ -2,52 +2,59 @@
 
 ```
 1. 深度学习相关
+
+    【概念、了解】
     机器学习和深度学习的区别，各自适用于什么问题
+    无监督/半监督深度学习有了解过嘛
+    GAN的原理
     CNN基本原理，CNN的那些部分是神经元
-    CNN去掉激活函数会怎么样
-    介绍YOLO/SSD/RCNN/Faster-RCNN/Mask-RCNN算法
-    YOLO v1/v2/v3 区别细节，SSD如何改进有思考过嘛，知道DSSD和FSSD嘛
+    什么是空洞卷积，什么是反卷积，作用是什么
+    
+    global average pooling 和average pooling区别
     是否了解RPN，RoI pooling,和RoIAlign
-    YOLO/SSD里面有全连接层嘛
-    YOLO/SSD算法思想如何用到三维点云目标检测
-    目标检测算法one-stage和two-stage区别点在哪里
-    two-stage算法相比于one-stage有何优势
-    单张图片物体越多越密集，YOLO/SSD/Faster-RCNN中计算量是否也随着增加
-    CVPR/ECCV 2018 最新目标检测算法有了解过嘛
-    如何理解上采样，和下采样的区别是什么
-    上采样(UNSampling)与上池化(UnPooling)区别
+    
+    CNN去掉激活函数会怎么样
+    Relu为什么比sigmod好
+    softmax一般和哪个激活函数使用
+    
     全连接层理论上可以替代卷积层嘛
     神经网络里面可以用什么方法替换掉pooling
     神经网络提取特征的方式有哪些
-    介绍下你了解的轻量级CNN模型
-    网络模型压缩方面的剪枝，量化和二值化编码
-    基于视频的C3D三维网络模型有听说过嘛
-    2.5D卷积呢
-    什么是空洞卷积，什么是反卷积，作用是什么
-    如何一张RGB图片生成三维模型
-    PNG/JPG存储图像的原理
-    global average pooling 和average pooling区别
+    
     FPN的原理，为什么不同尺度feature map融合会有效果提升
-    无监督/半监督深度学习有了解过嘛
-    GAN的原理
-    基于RGB图的深度信息估计有了解过嘛
+    
+    【检测】
+    介绍YOLO/SSD/RCNN/Faster-RCNN/Mask-RCNN算法
+    YOLO v1/v2/v3 区别细节，SSD如何改进有思考过嘛，知道DSSD和FSSD嘛
+    YOLO/SSD里面有全连接层嘛
+    YOLO/SSD算法思想如何用到三维点云目标检测
+    单张图片物体越多越密集，YOLO/SSD/Faster-RCNN中计算量是否也随着增加
+    目标检测算法one-stage和two-stage区别点在哪里
+    two-stage算法相比于one-stage有何优势
+    
+    【检测评估】
+    目标识别算法常用评测方式
+    IOU和mAP，AUC和ROC分别是什么
+    
+    【网络其它】
+    如何理解上采样，和下采样的区别是什么
+    上采样(UNSampling)与上池化(UnPooling)区别
+    
+    【模型量化】
+    介绍下你了解的轻量级CNN模型
     MobileNet V1/V2区别
     ShuffleNet和SqueezeNet
     模型量化方法有哪些
-    双线性插值，量化对齐
-    Relu为什么比sigmod好
-    目标识别算法常用评测方式
-    IOU和mAP，AUC和ROC分别是什么
-    介绍下常见损失函数，softmax一般和哪个激活函数使用
-    介绍下PointNet/PointNet++/VoxelNet以及他们的优缺点
-    PointCNN介绍一下
-    旋转矩阵是什么，有什么性质，PointNet中T-Net旋转矩阵的损失函数如何设计
-    如何计算旋转矩阵
+    网络模型压缩方面的剪枝，量化和二值化编码
+
+    【机器学习】
     介绍下机器学习和深度学习中常见的参数类算法和非参数类算法
     随机梯度下降
     神经网络训练如何解决过拟合和欠拟合
     L1正则化和L2正则化区别，具体有何用途
     L1正则化相比于 L2正则化为何具有稀疏解
+    介绍下常见损失函数
+    双线性插值，量化对齐
     
 2. C++开发相关
     c++常见容器，vector容器capacity和size区别，如何动态增长
